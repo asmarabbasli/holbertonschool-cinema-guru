@@ -1,0 +1,24 @@
+/* src/components/general/general.css */
+.input-container, .select-input-container {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-icon {
+    position: absolute;
+    left: 10px;
+}
+
+.custom-button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
